@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" herf = "./creating_css/style.css">
+    <script src ="/clint_side_js/clint_js_file.js"> </script>
+</head>
+<body>
+    {{!-- defining a partials --}}
+    {{!-- for the automatic run header.hbs file after save (nodemon node_js_script/dynamic_page_template.js -e js.hbs) --}}
+
+    <h1> {{>header}}</h1>
+
+
+    {{!-- <h1>{{title}}</h1> --}}
+    <h1>{{helpText}}</h1>
+    <p>this is me {{name}}</p>
+    <h1>currently design html css in progress</h1>
+    
+    <h1>you are checking about html</h1>
+ 
+    <h2> i am from handle bar help script </h2> 
+    <h1>i am creating this page</h1>
+    <h1>how can i help you</h1>
+
+    {{>footer}}
+
+
+</body>
+</html>
