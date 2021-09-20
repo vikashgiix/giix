@@ -4,10 +4,12 @@
   "description": "",
   "main": "hello_express.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_js_script/dynamic_page_template.js"
   },
   "keywords": [],
   "author": "",
+  
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
